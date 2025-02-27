@@ -10,22 +10,27 @@ void Calculate()
     string operation = input ?? string.Empty;
     if (operation == "+")
     {
+        Console.WriteLine("Addition");
         Console.WriteLine(num1 + num2);
     }
     else if (operation == "-")
     {
+        Console.WriteLine("Subtraction");
         Console.WriteLine(num1 - num2);
     }
     else if (operation == "*")
     {
+        Console.WriteLine("Multiplication");
         Console.WriteLine(num1 * num2);
     }
     else if (operation == "/")
     {
+        Console.WriteLine("Division");
         Console.WriteLine(num1 / num2);
     }
     else
     {
+        Console.WriteLine("Invalid operation");
         Console.WriteLine("Invalid operation");
     }
 }
